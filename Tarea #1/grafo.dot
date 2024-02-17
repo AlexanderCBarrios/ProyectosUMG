@@ -1,0 +1,9 @@
+digraph G {
+"Rosselyn  Paredes (4984)" [shape=box];
+"Rosselyn  Paredes (4984)" -> "Alexander Chic (9490)";
+"Alexander Chic (9490)" [shape=box];
+"Alexander Chic (9490)" -> "Pedro Pica Piedra (0001)";
+"Alexander Chic (9490)" -> "Rosselyn  Paredes (4984)";
+"Pedro Pica Piedra (0001)" [shape=box];
+"Pedro Pica Piedra (0001)" -> "Alexander Chic (9490)";
+}

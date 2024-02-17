@@ -1,0 +1,88 @@
+# Lista Doblemente Enlazada
+
+Este programa implementa una lista doblemente enlazada en Python y proporciona una interfaz de línea de comandos (CLI) para interactuar con ella. La lista permite insertar nodos al principio o al final, eliminar nodos por su carnet, y mostrar los elementos de la lista.
+
+## Requisitos
+
+- Python 3.x
+- Graphviz (para generar el gráfico de la lista)
+
+## Instalación
+
+1. Clona este repositorio en tu máquina local:
+
+    ```
+    git clone https://github.com/tu_usuario/lista-doblemente-enlazada.git
+    ```
+
+2. Entra al directorio del proyecto:
+
+    ```
+    cd lista-doblemente-enlazada
+    ```
+
+## Uso
+
+1. Ejecuta el programa con Python:
+
+    ```
+    python lista_doblemente_enlazada.py
+    ```
+
+2. Se mostrará un menú con las siguientes opciones:
+
+    - **Insertar al principio:** Permite ingresar los datos de un estudiante y lo inserta al principio de la lista.
+    - **Insertar al final:** Permite ingresar los datos de un estudiante y lo inserta al final de la lista.
+    - **Eliminar por carnet:** Permite eliminar un estudiante de la lista ingresando su carnet.
+    - **Mostrar lista:** Muestra los elementos de la lista y genera un gráfico de la lista doblemente enlazada.
+    - **Salir:** Termina la ejecución del programa.
+
+3. Sigue las instrucciones en pantalla para realizar la operación deseada. Por ejemplo:
+   
+    - Para insertar un estudiante al principio, selecciona la opción `1` y luego ingresa el nombre, apellido y carnet.
+    - Para mostrar la lista, selecciona la opción `4`.
+
+## Ejemplo de Uso
+
+1. Insertar al principio:
+    ```
+    Seleccione una opción: 1
+    Ingrese el nombre: Juan
+    Ingrese el apellido: Pérez
+    Ingrese el carnet: 12345
+    ```
+
+2. Mostrar lista:
+    ```
+    Seleccione una opción: 4
+    Juan Pérez (12345) <-> None
+    Se ha generado el grafo de la lista doblemente enlazada.
+    ```
+
+3. Insertar al final:
+    ```
+    Seleccione una opción: 2
+    Ingrese el nombre: María
+    Ingrese el apellido: López
+    Ingrese el carnet: 67890
+    ```
+
+4. Mostrar lista:
+    ```
+    Seleccione una opción: 4
+    Juan Pérez (12345) <-> María López (67890) <-> None
+    Se ha generado el grafo de la lista doblemente enlazada.
+    ```
+
+5. Eliminar por carnet:
+    ```
+    Seleccione una opción: 3
+    Ingrese el carnet del estudiante a eliminar: 12345
+    ```
+
+6. Mostrar lista:
+    ```
+    Seleccione una opción: 4
+    María López (67890) <-> None
+    Se ha generado el grafo de la lista doblemente enlazada.
+    ```
